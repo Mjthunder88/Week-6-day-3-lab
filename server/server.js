@@ -14,8 +14,8 @@ app.use(cors())
 
 
 
-
-
+let {landingPage} = require('./controllers/controller')
+app.get('/', landingPage)
 
 const {PORT} = process.env
 
