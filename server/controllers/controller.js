@@ -6,6 +6,6 @@ module.exports = {
     },
     homeCss: (req, res) => {
         res.sendFile(path.join(__dirname, "../../client/home.css"))
-    },
-    
+    }
+
 }
