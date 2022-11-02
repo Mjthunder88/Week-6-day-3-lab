@@ -19,6 +19,7 @@ body {
 .main-image {
     height: 400px;
     width: 500px;
+    border-radius: 10px;
 }
 
 .preview-section {
