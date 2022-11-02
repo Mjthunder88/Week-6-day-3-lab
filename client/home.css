@@ -1,5 +1,12 @@
 .header {
     height: 120px;
     width: 100vw;
-    color: grey;
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav {
+    background-color: black;
+    color: white;
 }
