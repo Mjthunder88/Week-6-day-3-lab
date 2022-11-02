@@ -3,10 +3,26 @@
     width: 100vw;
     background-color: grey;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 10px;
 }
 
 .nav {
     background-color: black;
     color: white;
+}
+body {
+    margin: 0px;
+    max-width: 1200px;
+}
+
+.main-image {
+    height: 400px;
+    width: 500px;
+}
+
+.preview-section {
+    display: flex;
+    justify-content:center;
+    align-items: center;
 }
